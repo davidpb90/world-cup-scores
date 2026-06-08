@@ -1,0 +1,3 @@
+# Pin numba/llvmlite to versions with macOS wheels (avoids source builds).
+numba==0.62.1
+llvmlite==0.45.1

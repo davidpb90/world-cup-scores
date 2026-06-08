@@ -1,0 +1,10 @@
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+mlruns/
+mlflow.db
+experiments/runs/
+*.nc

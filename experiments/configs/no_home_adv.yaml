@@ -1,0 +1,16 @@
+name: no_home_adv_v1
+data:
+  years: 50
+  exclude_friendlies: true
+model:
+  home_advantage: false
+  attack_mu: 0.0
+  attack_sigma: 1.5
+  defense_mu: 0.0
+  defense_sigma: 1.5
+sample:
+  draws: 2000
+  tune: 1000
+  chains: 4
+  cores: 2
+  target_accept: 0.9

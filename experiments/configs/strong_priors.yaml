@@ -1,0 +1,18 @@
+name: strong_priors_v1
+data:
+  years: 50
+  exclude_friendlies: true
+model:
+  home_advantage: true
+  attack_mu: 0.0
+  attack_sigma: 0.8
+  defense_mu: 0.0
+  defense_sigma: 0.8
+  home_advantage_mu: 0.2
+  home_advantage_sigma: 0.3
+sample:
+  draws: 2000
+  tune: 1000
+  chains: 4
+  cores: 2
+  target_accept: 0.9
