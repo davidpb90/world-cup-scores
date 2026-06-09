@@ -6,5 +6,6 @@ __pycache__/
 venv/
 mlruns/
 mlflow.db
+*_search.db
 experiments/runs/
 *.nc
